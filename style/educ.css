@@ -1,0 +1,145 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+} */
+
+.body{
+    font-family: 'Questrial', sans-serif;
+}
+
+.header{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color:#1A1919;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 340px;
+    height: 37px;
+    left: 63px;
+    top: 32px;
+    padding: 32px;
+    margin-left: 63px;
+    
+}
+
+.logo__text{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 37px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text__zayv{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: black;
+    margin-top: 63px;
+    margin-left: 144px;
+    margin-bottom: 97px;
+    margin-right: 330px;
+}
+
+.form{
+    width: 255px;
+    height: 35px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    margin-right: 119px;
+
+}
+
+.button{
+    background-color: #000000;
+    color: #ffffff;
+    width: 154px;
+    height: 38px;
+    left: 927px;
+    top: 2548px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 119px;
+   
+}
+
+.button__text{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.button:hover{
+    background: #858282;
+    color: #ffffff;
+    transition: 300ms;
+}
+
+.footer{
+    background-color: #1A1919;
+    height: 101px;
+    font-weight: normal;
+    font-size: 13px;
+    color:#FFFFFF ;
+}
+
+.footer__text{
+    margin-left: 139px;
+    margin-top: 45px;
+    
+}
+
+.footer__text_Uk{
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.footer__text_Uk:hover{
+    color: #858282;
+    transition: 300ms;
+}
+
+.footer__text_inst{
+    padding-left: 490px;
+    margin-right: 157px;
+    margin-top: 38px;
+    margin-bottom: 28px;
+    letter-spacing: -0.02em;
+
+}
+
+.footer__text_t{
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+.footer__text_t:hover{
+    color: #858282;
+    transition: 300ms;
+}
